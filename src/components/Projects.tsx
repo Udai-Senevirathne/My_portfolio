@@ -4,7 +4,7 @@ const Projects = () => {
   const featuredProject = {
     title: "SafeCom - Emergency Incident Reporting App",
     description: "SafeCom is a comprehensive Flutter-based mobile application designed to enhance community safety through real-time reporting, weather monitoring, and emergency response coordination. The app empowers users to report incidents, access safety tips, and stay informed about local safety conditions.",
-    image: "/images/donut.png",
+    image: "/images/SafeCom.png",
     technologies: ["Flutter", "Dart", "Firebase", "Clean Architecture", "Responsive Design","Real-time Weather Monitoring","Emergency Reporting","Location Tracking","User Authentication"],
     githubLink: "https://github.com/Udai-Senevirathne/safecom_final",
 
