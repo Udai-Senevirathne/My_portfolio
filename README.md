@@ -112,16 +112,6 @@ npm run build
 - **Tablet**: 640px - 1024px
 - **Desktop**: > 1024px
 
-## 🤝 Contributing
-
-While this is a personal portfolio, suggestions and feedback are welcome!
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -m 'Add some improvement'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Open a Pull Request
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
