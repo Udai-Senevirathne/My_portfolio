@@ -194,9 +194,8 @@ const Experience = () => {
           }`}
         >
           <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/Udai_Senevirathne_CV.pdf"
+            download="Udai_Senevirathne_CV.pdf"
             className="inline-flex items-center px-8 py-3 border border-gray-500 text-gray-300 hover:bg-white hover:text-gray-900 transition-all duration-300 text-sm font-medium uppercase tracking-wider hover:transform hover:scale-105"
           >
             <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
