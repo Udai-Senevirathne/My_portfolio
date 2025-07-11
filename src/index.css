@@ -399,6 +399,38 @@ body {
   }
 }
 
+/* Mock Phone specific animations */
+@keyframes phoneGlow {
+  0%, 100% { 
+    box-shadow: 0 0 20px rgba(45, 212, 191, 0.3), 0 0 60px rgba(45, 212, 191, 0.1); 
+  }
+  50% { 
+    box-shadow: 0 0 30px rgba(45, 212, 191, 0.4), 0 0 80px rgba(45, 212, 191, 0.15); 
+  }
+}
+
+@keyframes screenReflection {
+  0% { opacity: 0; transform: translateX(-100%); }
+  50% { opacity: 0.3; transform: translateX(0%); }
+  100% { opacity: 0; transform: translateX(100%); }
+}
+
+.phone-glow {
+  animation: phoneGlow 3s ease-in-out infinite;
+}
+
+.phone-reflection::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.1) 50%, transparent 70%);
+  animation: screenReflection 4s ease-in-out infinite;
+  pointer-events: none;
+}
+
 /* Animation classes */
 .animate-fade-in-up {
   animation: fadeInUp 0.8s ease-out forwards;
